@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9; /* Very light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* White background for containers */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 8px;
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1, h2 {
+    color: #6d28d9; /* Formal shade of lilac */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #d1a4c2; /* Light lilac button */
+    border: none;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #c77c9e; /* Slightly darker lilac on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.choice {
+    display: block;
+    margin: 10px auto;
+    background-color: #e8c9e1; /* Lighter lavender background for choices */
+    border: 1px solid #d1a4c2; /* Matching border color */
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.choice:hover {
+    background-color: #d1a4c2; /* Slightly darker lavender on hover */
+    color: #fff;
+    transform: scale(1.05); /* Slightly enlarge the choice button on hover */
+}
+
+.choice:focus {
+    outline: none;
+}
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="home" class="container">
+        <h1>Welcome to the IQ Test App</h1>
+        <p>Select what type of student you are and test your knowledge with our quiz!</p>
+        <button class="btn" id="startQuiz">Start Quiz</button>
+        <button class="btn" id="viewInstructions">Instructions</button>
+    </div>
+
+    <div id="instructions" class="container" style="display: none;">
+        <h2>Instructions</h2>
+        <p>1. Select a difficulty level to start the quiz.</p>
+        <p>2. Answer all the questions to the best of your ability.</p>
+        <p>3. At the end of the quiz, you will receive feedback on your performance.</p>
+        <button class="btn" id="backHome">Back to Home</button>
+    </div>
+
+    <div id="selectLevel" class="container" style="display: none;">
+        <h1>Select Your Difficulty Level</h1>
+        <button class="btn" data-level="outstanding">Outstanding Student</button>
+        <button class="btn" data-level="good">Good Student</button>
+        <button class="btn" data-level="average">Average Student</button>
+    </div>
+
+    <div id="quiz" class="container" style="display: none;">
+        <!-- Questions will be injected here by JavaScript -->
+    </div>
+
+    <div id="result" class="container" style="display: none;">
+        <h2>Your Result</h2>
+        <div id="feedback"></div>
+        <button id="restart" class="btn">Restart Quiz</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
