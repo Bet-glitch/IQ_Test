@@ -1,9 +1,9 @@
 const questionSets = {
     outstanding: [
         {
-            question: "What is the value of π (pi) to 2 decimal places?",
-            choices: ["3.14", "3.15", "3.16", "3.17"],
-            answer: "3.14"
+            question:"Who wrote Half Of A Yellow sun?",
+            choices: ["Wole Soyinka", "Chimamanda Adichie", "Fela Kuti", "Tayo Akinwure"],
+            answer: "Chimamanda Adichie"
         },
         {
             question: "Which element has the atomic number 1?",
@@ -11,13 +11,13 @@ const questionSets = {
             answer: "Hydrogen"
         },
         {
-            question: "What is the capital city of Australia?",
-            choices: ["Sydney", "Melbourne", "Canberra", "Brisbane"],
-            answer: "Canberra"
+            question: "What is the capital city of Nigeria?",
+            choices: ["Lagos", "Abuja", "Ondo", "Lokoja"],
+            answer: "Abuja"
         },
         {
             question: "What is the derivative of x^2?",
-            choices: ["2x", "x", "x^2", "2x^2"],
+            choices: ["x", "2x", "x^2", "2x^2"],
             answer: "2x"
         },
         {
@@ -34,12 +34,12 @@ const questionSets = {
         },
         {
             question: "Who wrote '1984'?",
-            choices: ["George Orwell", "Aldous Huxley", "J.K. Rowling", "Ernest Hemingway"],
+            choices: ["J.K Rowling", "Aldous Huxley", "George Orwell", "Ernest Hemingway"],
             answer: "George Orwell"
         },
         {
             question: "What is the speed of light in a vacuum?",
-            choices: ["300,000 km/s", "150,000 km/s", "500,000 km/s", "1,000,000 km/s"],
+            choices: ["1,000,000 km/s", "150,000 km/s", "500,000 km/s", "300,000 km/s"],
             answer: "300,000 km/s"
         },
         {
@@ -49,14 +49,14 @@ const questionSets = {
         },
         {
             question: "What is the chemical symbol for water?",
-            choices: ["H2O", "CO2", "NaCl", "O2"],
+            choices: ["NaCl", "CO2", "H2O", "O2"],
             answer: "H2O"
         }
     ],
     average: [
         {
             question: "What is 10 + 5?",
-            choices: ["15", "12", "20", "25"],
+            choices: ["12", "15", "20", "25"],
             answer: "15"
         },
         {
@@ -65,19 +65,19 @@ const questionSets = {
             answer: "Mercury"
         },
         {
-            question: "What is the main ingredient in guacamole?",
-            choices: ["Tomato", "Pepper", "Avocado", "Onion"],
-            answer: "Avocado"
+            question: "Who discorvered the gravity?",
+            choices: ["Bobrisky", "Nelson Mandela", "Isaac Newton", "Neil Armstrong"],
+            answer: "Isaac Newton"
         },
         {
             question: "Who was the 16th President of the United States?",
-            choices: ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"],
+            choices: ["George Washington ", "Abraham Lincon", "Thomas Jefferson", "John Adams"],
             answer: "Abraham Lincoln"
         },
         {
-            question: "What is the boiling point of water?",
-            choices: ["100°C", "90°C", "110°C", "80°C"],
-            answer: "100°C"
+            question: "When did Nigeria Civil War begin",
+            choices: ["2012","1960","1967","1999"],
+            answer: "1967"
         }
     ]
 };
